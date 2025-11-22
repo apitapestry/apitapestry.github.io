@@ -3,12 +3,12 @@ class: landing-bg
 ---
 
 <div id="homepage-hero"></div>
-# **API Tapestry**
+# **APIstry**
 <br>
 <br>
 <br>
 
-## Where we weave your API fabric into something extraordinary
+## The Next Evolution in API Service Delivery
 
 <br><br><br><br>
 <footer>  

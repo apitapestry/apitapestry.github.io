@@ -59,3 +59,18 @@
     text-align: center !important;
 }
 
+/* Force links inside the homepage hero article to stay white (even default link styles) */
+.md-content article:has(#homepage-hero) a,
+.md-content article:has(#homepage-hero) a:visited {
+    color: #FFFFFF !important;
+}
+.md-content article:has(#homepage-hero) a:hover,
+.md-content article:has(#homepage-hero) a:focus {
+    color: #FFFFFF !important; /* keep stable */
+    text-decoration: underline; /* optional: show interaction, change/remove if desired */
+}
+
+/* If you want ONLY heading links white but body links normal, comment out the above and use:
+.md-content article:has(#homepage-hero) h1 a,
+.md-content article:has(#homepage-hero) h2 a { color: #FFFFFF !important; }
+*/

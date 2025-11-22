@@ -1,5 +1,6 @@
-site_name: APIstry
-site_url: https://docs.contract-as-a-service.net
+site_name: API Tapestry
+site_description: API Tools and Resources for Developers
+site_url: https://www.apitapestry.net
 use_directory_urls: true
 
 theme:
@@ -33,4 +34,7 @@ extra:
 
 nav:
   - Home: index.md
+  - APIstry: apistry/index.md
+  - SpectralPlus: spectralplus/index.md
+  - Contract as a Service: caas/index.md
   - Overview: overview.md

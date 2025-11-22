@@ -3,12 +3,12 @@ class: landing-bg
 ---
 
 <div id="homepage-hero"></div>
-# **API Tapestry**
+# **SpectralPlus**
 <br>
 <br>
 <br>
 
-## Where we weave your API fabric into something extraordinary
+## [Spectral Linter](https://stoplight.io/open-source/spectral) plus a few extras
 
 <br><br><br><br>
 <footer>  
