@@ -25,23 +25,3 @@
 .md-nav__title {
     display: none;
 }
-
-/* Keep links white inside pages using the landing-bg class (e.g., SpectralPlus page) */
- .landing-bg h1 a,
-.landing-bg h2 a,
-.landing-bg h1 a:visited,
-.landing-bg h2 a:visited {
-    color: inherit !important; /* inherit white from heading */
-    text-decoration: none; /* optional: remove underline for cleaner heading */
-}
-
-/* If you want ALL links on that page white, uncomment below:
-.landing-bg a,
-.landing-bg a:visited {
-    color: #FFFFFF !important;
-}
-.landing-bg a:hover,
-.landing-bg a:focus {
-    color: #FFFFFF !important;
-}
-*/

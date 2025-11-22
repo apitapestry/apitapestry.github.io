@@ -34,7 +34,4 @@ extra:
 
 nav:
   - Home: index.md
-  - APIstry: apistry/index.md
-  - SpectralPlus: spectralplus/index.md
-  - Contract as a Service: caas/index.md
-  - Overview: overview.md
+  - Products: products.md
