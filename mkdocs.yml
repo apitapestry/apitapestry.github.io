@@ -11,6 +11,7 @@ theme:
     - navigation.tracking
 #    - navigation.top
 #    - navigation.tabs
+    - header.autohide
   palette:
     - scheme: default
       primary: custom
@@ -23,15 +24,7 @@ theme:
     code: Roboto Mono
 
 extra_css:
-  - css/custom.css
   - css/home.css
-
-extra_javascript:
-  - js/custom.js
 
 extra:
   generator: false
-
-nav:
-  - Home: index.md
-  - Products: products.md

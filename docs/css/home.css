@@ -1,3 +1,38 @@
+/* === Custom color palette: #0066CC (Deep Azure Blue) === */
+
+/* Light mode */
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color:        #0066CC; /* main brand blue */
+    --md-primary-fg-color--light: #3385D6; /* hover, tabs */
+    --md-primary-fg-color--dark:  #004C99; /* darkened variant */
+
+    --md-accent-fg-color:         #00AEEF; /* vivid cyan accent */
+    --md-default-bg-color:        #FFFFFF; /* background */
+    --md-default-fg-color:        #222222; /* body text */
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #3399FF; /* brightened for contrast */
+    --md-primary-fg-color--light: #66B2FF;
+    --md-primary-fg-color--dark:  #1A75D1;
+
+    --md-accent-fg-color:         #33CCFF; /* highlight on hover */
+    --md-default-bg-color:        #0E1A27; /* deep navy background */
+    --md-default-fg-color:        #E0E6ED; /* light gray text */
+}
+
+/* Hide site title in the sidebar nav */
+.md-nav__title {
+    display: none;
+}
+
+/* Hide the top header/navigation bar */
+.md-header {
+    display: none;
+}
+
+/* === Homepage Styles === */
 /* Apply background ONLY to the homepage (index.html) */
 /* Background fills only top 2/3rds of the screen */
 /* Uses #homepage-hero as the identifier so heading text can be changed freely */
@@ -58,19 +93,3 @@
     margin-top: 0.5rem;
     text-align: center !important;
 }
-
-/* Force links inside the homepage hero article to stay white (even default link styles) */
-.md-content article:has(#homepage-hero) a,
-.md-content article:has(#homepage-hero) a:visited {
-    color: #FFFFFF !important;
-}
-.md-content article:has(#homepage-hero) a:hover,
-.md-content article:has(#homepage-hero) a:focus {
-    color: #FFFFFF !important; /* keep stable */
-    text-decoration: underline; /* optional: show interaction, change/remove if desired */
-}
-
-/* If you want ONLY heading links white but body links normal, comment out the above and use:
-.md-content article:has(#homepage-hero) h1 a,
-.md-content article:has(#homepage-hero) h2 a { color: #FFFFFF !important; }
-*/
