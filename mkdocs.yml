@@ -3,6 +3,19 @@ site_description: API Tools and Resources for Developers
 site_url: https://www.apitapestry.net
 use_directory_urls: true
 
+#nav:
+#    - Home: index.md
+#    - Tools:
+#        - API Explorer: tools/api-explorer.md
+#        - API Tester: tools/api-tester.md
+#        - API Documentation Generator: tools/api-doc-generator.md
+#    - Resources:
+#        - Tutorials: resources/tutorials.md
+#        - Best Practices: resources/best-practices.md
+#        - API News: resources/api-news.md
+#    - About: about.md
+#    - Contact: contact.md
+
 theme:
   name: material
   features:
@@ -24,7 +37,7 @@ theme:
     code: Roboto Mono
 
 extra_css:
-  - css/home.css
+  - extra.css
 
 extra:
   generator: false
